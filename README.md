@@ -8,7 +8,7 @@ Por quê??? Porque a vida de solteiro é difícil e ficar dando like em app de r
 Foi o único site de relacionamento que eu encontrei que 1) funcionava em browser e 2) tem likes ilimitados na conta free.
 
 ### Certo, como isso funciona então
-O bom e velho selenium, encontrando onde clicar pelo xPath dos elementos. Basicamente ele vai abrir o site, aceitar os cookies, colocar seu usuário e senha e começar a dar likes. Coloquei pra pular a opção de enviar mensagem sobre algum assunto e, caso você passe pela parte do login repetidas vezes por algum motivo, coloquei um "Deseja continuar?" para o programa esperar você inserir manualmente o captcha, depois de inserido basta dar um ok ou digitar "n" se quiser parar.
+O bom e velho selenium, encontrando onde clicar pelo xPath dos elementos. Basicamente ele vai abrir o site, aceitar os cookies, colocar seu usuário e senha e começar a dar likes. Coloquei também pra pular a opção de enviar mensagem sobre algum assunto quando isso aparecer. Caso você passe pela parte do login repetidas vezes num curto período de tempo por algum motivo, isso vai ativar o sistema de captcha, então coloquei um "Deseja continuar?" para o programa esperar você inserir manualmente o captcha, depois de inserido basta dar um enter ou digitar "n" se quiser parar.
 
 ### O que eu preciso pra rodar?
 Claramente criar uma conta no [Par Perfeito](https://www.parperfeito.com.br/), depois é só incluir seu usuário e senha no arquivo "secrets.py". Depois disso, falta apenas instalar o selenium:
