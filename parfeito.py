@@ -80,13 +80,13 @@ class ParfeitoBot():
         try:
             # Encontrar o elemento inicial para garantir que a página tem o foco
             initial_element = self.driver.find_element(By.XPATH, '//*[@id="mainContent"]')
-
+            sleep(1)
             # Pressionar Tab duas vezes para focar no botão 'Pular'
             ActionChains(self.driver).move_to_element(initial_element).send_keys(Keys.TAB).send_keys(Keys.TAB).perform()
-
+            sleep(1)
             # Pressionar Enter para clicar no botão 'Pular'
             ActionChains(self.driver).send_keys(Keys.ENTER).perform()
-
+            sleep(1)
         except NoSuchElementException:
             print("Elemento 'Pular' não encontrado.")
 
