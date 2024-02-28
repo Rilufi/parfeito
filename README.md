@@ -21,7 +21,7 @@ e ter o arquivo chromedriver.exe (que vai ser usado pra abrir o Chrome automatiz
 O Par Perfeito só tem limites até o ponto onde não houver mais pessoas para te recomendar, então recomendo (rs) diminuir o máximo de restrições (idade, distância, etc.) para poder maximizar o número de likes, mas aí também vai de você, por isso que é uma *recomendação*.
 
 ### Problemas
-Às vezes pode ser que mesmo com as opções do selenium pra mascarar a automatização, eles percebam, então você vai precisar manualmente passar o captcha, isso demorar muito, isso já vai acionar a pergunta "Deseja continuar?" e pausar o bot, então é só dar um enter que ele continua pro estado "dar likes infinitos". Na pior das hipóteses, se ele der algum outro problema é só reiniciar o bot (ou resolver o problema, mas daí eu deixo pra vocês).
+A única coisa até então que eu vi dar problema é que aparentemente chega um momento em que ele "cansa" kkkkk mas isso já vai acionar a pergunta "Deseja continuar?" (se ela já não foi acionada lá no começo no captcha), então é só dar um enter que ele volta ao estado "dar likes infinitos". Na pior das hipóteses, é só reiniciar o bot (ou resolver o problema, mas daí eu deixo pra vocês).
 
 ### Agradecimentos
 Eu basicamente só adaptei esse [vídeo](https://www.youtube.com/watch?v=lvFAuUcowT4) e esse [repositório](https://github.com/aj-4/tinder-swipe-bot) pra funcionar com o Par Perfeito ao invés do Tinder.
